@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "255199339684",
+    "firebase_url": "https://guiatour-80708.firebaseio.com",
+    "project_id": "guiatour-80708",
+    "storage_bucket": "guiatour-80708.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255199339684:android:d6754483d5fbf713",
+        "android_client_info": {
+          "package_name": "com.example.android.guiatour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255199339684-oqoicta4igiore3rjkitkgtda4fnp7sn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.guiatour",
+            "certificate_hash": "45c9b57f61a5ee72d7878e7f2abc07655db0c590"
+          }
+        },
+        {
+          "client_id": "255199339684-d1tdivq21brckn7u49l6gn1dh0os0fka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfRCRo-lFez21yu6SpNdSnINu9cLSw4gI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255199339684-d1tdivq21brckn7u49l6gn1dh0os0fka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

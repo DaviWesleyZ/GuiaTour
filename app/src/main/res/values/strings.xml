@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GuiaTour</string>
+    <string-array name="Paises">
+        <item>Brasil</item>
+        <item>India</item>
+        <item>Estados Unidos</item>
+        <item>França</item>
+        <item>Espanha</item>
+    </string-array>
+
+    <string name="informe_seus_dados_para_concluir_o_seu_registro">Informe seus dados para concluir o seu registro.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentos.RegrasFragment"
+    android:background="@drawable/fundotelaprincipal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Segue abaixo as regras de postagem, por favor, leia antes de utilizar nosso serviço"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/logotour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtRegras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="20dp"
+        android:text="                                                REGRAS DE USO
+1 – Não é permitido nome de usuário ou foto que violem ou desrespeitem as condições propostas no artigo 1.2
+1.2 – Não é permitido nenhum tipo de conteúdo abusivo e/ou obsceno.
+2 – A área de criação de Posts deve ser utilizada apenas para assuntos relacionados à viagens e afins.
+3 – Qualquer post que não se encaixe no padrão 2 será revisado e excluido, podendo ocasionar o banimento de sua conta.
+4 – A parte de comentário deve ser utilizada para troca de conhecimentos e informações.
+4.1 – Não é permitido trocar informações pessoais, como telefone de contato, endereços residênciais, etc.
+4.2 – Não é permitido xingamentos, tratamentos abusivos ou desrespeito com nenhum usuário.
+5 – Aqueles que desejarem contribuir com informações de bugs e/ou ajudar com ideias e sugestões, podem encaminhar um e-mail para suporteGuiaTour@gmail.com
+6 – Qualquer regra quebrada pode ocasionar o cancelamento de sua conta.
+7 – Criação de vários perfis pode ser monitorado e cancelados posteriormente.
+
+"
+        android:textColor="#000"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.161" />
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

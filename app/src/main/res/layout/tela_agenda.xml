@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.AgendaActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbarAgenda"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/textviewD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:text="DEFINIR NOVO EVENTO"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Titulo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtLocal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Local" />
+
+        <ImageView
+            android:id="@+id/imgLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/local_icon"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/dataInicio"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Inicio"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnInicio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="false"
+            android:text="DATA INICIO" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtDetalhes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Detalhes"
+        android:inputType="textMultiLine" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEUS EVENTOS"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/separador" />
+
+    <ListView
+        android:id="@+id/listEventos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
